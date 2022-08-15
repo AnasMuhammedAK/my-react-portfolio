@@ -56,12 +56,12 @@ const Work = () => {
               E-commerce Admin
               </span>
               <div className='pt-8 text-center'>
-                <a href='https://getlaps.club/admin'>
+                <a href='https://getlaps.club/admin' target='_blank'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Demo
                   </button>
                 </a>
-                <a href='https://github.com/AnasMuhammedAK/GetLaps-Main'>
+                <a href='https://github.com/AnasMuhammedAK/GetLaps-Main' target='_blank'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Code
                   </button>
@@ -80,12 +80,12 @@ const Work = () => {
                 Portfolio - React
               </span>
               <div className='pt-8 text-center'>
-                <a href='/'>
+                <a href='/' >
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Demo
                   </button>
                 </a>
-                <a href='/'>
+                <a href='https://github.com/AnasMuhammedAK/my-react-portfolio' target='_blank'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Code
                   </button>
@@ -108,7 +108,7 @@ const Work = () => {
                     Demo
                   </button>
                 </a>
-                <a href='https://github.com/AnasMuhammedAK/netflix-clone'>
+                <a href='https://github.com/AnasMuhammedAK/netflix-clone' target='_blank'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Code
                   </button>
@@ -132,7 +132,7 @@ const Work = () => {
                     Demo
                   </button>
                 </a>
-                <a href='https://github.com/AnasMuhammedAK/React_olx_clone'>
+                <a href='https://github.com/AnasMuhammedAK/React_olx_clone' target='_blank'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Code
                   </button>
@@ -155,7 +155,7 @@ const Work = () => {
                     Demo
                   </button>
                 </a>
-                <a href='https://github.com/AnasMuhammedAK/Incubation-Management-Main'>
+                <a href='https://github.com/AnasMuhammedAK/Incubation-Management-Main' target='_blank'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Code
                   </button>
