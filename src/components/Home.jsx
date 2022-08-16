@@ -3,6 +3,7 @@ import { HiArrowNarrowRight } from 'react-icons/hi';
 import { FaGithub,FaLinkedin } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi'
 import { BsFillPersonLinesFill } from 'react-icons/bs'
+import { Link } from 'react-scroll';
 
 const Home = () => {
   return (
@@ -23,19 +24,23 @@ const Home = () => {
           working as a team member and independently.
         </p>
         <div>
-          <button className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600'>
+        <Link to='work' smooth={true} duration={500}>
+        <button className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600'>
             View Work
             <span className='group-hover:rotate-90 duration-300'>
               <HiArrowNarrowRight className='ml-3 ' />
             </span>
           </button>
+          </Link>
+          
           {/* Social icons */}
       <div className='flex lg:hidden  mt-10  top-[35%] '>
         <ul className='flex space-x-5'>
           <li className='w-[60px] h-[60px] flex justify-between items-center  bg-blue-600'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
-              href='/'
+              target="_blank"
+              href='https://www.linkedin.com/in/muhammed-anas-ak/'
             >
               <FaLinkedin size={30} />
             </a>
@@ -43,23 +48,27 @@ const Home = () => {
           <li className='w-[60px] h-[60px] flex justify-between items-center  bg-[#333333]'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
-              href='/'
+              target="_blank"
+              href='https://github.com/AnasMuhammedAK'
             >
              <FaGithub size={30} />
             </a>
           </li>
           <li className='w-[60px] h-[60px] flex justify-between items-center  bg-[#6fc2b0]'>
-            <a
+          <Link to='contact' smooth={true} duration={500}>
+          <a
               className='flex justify-between items-center w-full text-gray-300'
               href='/'
             >
               <HiOutlineMail size={30} />
             </a>
+          </Link>
+            
           </li>
           <li className='w-[160px] h-[60px] flex justify-between items-center  bg-[#565f69]'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
-              href='/'
+              href='/resume.pdf' download={true}
             >
               Resume <BsFillPersonLinesFill size={30} />
             </a>
